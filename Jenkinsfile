@@ -7,6 +7,7 @@ node {
         sh 'javac Main.java'
     }
     stage('run') {
+        echo "start"
         sh 'java Main'
     }
 }
